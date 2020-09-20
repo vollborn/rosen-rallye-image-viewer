@@ -58,7 +58,13 @@ effectSwitch = optionSwitch.new({
 	default = config.effect,
 	label = "Effekt",
 	select = {
-		"none", "fade"
+		"none",
+		"fade",
+		"fade-over",
+		"fade-top-over",
+		"fade-bottom-over",
+		"fade-blur",
+		"fade-blur-over"
 	}
 })
 effectSwitch.x, effectSwitch.y = centerX, centerY * 0.5
